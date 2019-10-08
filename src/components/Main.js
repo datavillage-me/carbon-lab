@@ -46,7 +46,11 @@ class Main extends React.Component {
                 <li>Read and agree with the consent policy</li>
                 <li>Trigger the calculation and get your carbon footprint</li>
               </ul>
-              <input type="submit" value="Calculate" className="special" />
+              <a href="https://chrome.google.com/webstore/detail/ieaegaclpphaflhfajdfabcnhiijpgok">
+                <button class="btn btn-default">
+                  <img src="https://www.ebsta.com/wp-content/uploads/2019/04/1200px-Google_Chrome_icon_September_2014.svg-300x300.png" width="20" /> Install Chrome extension
+                </button>
+              </a>
           </p>
           {close}
         </article>
