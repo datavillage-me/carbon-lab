@@ -46,7 +46,11 @@ class Main extends React.Component {
                 <li>Read and agree with the consent policy</li>
                 <li>Trigger the calculation and get your carbon footprint</li>
               </ul>
-              <input type="submit" value="Calculate" className="special" />
+              <a href="https://chrome.google.com/webstore/detail/ieaegaclpphaflhfajdfabcnhiijpgok">
+                <button class="btn btn-default">
+                  <img src="https://www.ebsta.com/wp-content/uploads/2019/04/1200px-Google_Chrome_icon_September_2014.svg-300x300.png" width="20" /> Install Chrome extension
+                </button>
+              </a>
           </p>
           {close}
         </article>
@@ -59,19 +63,12 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">My Carbon footprint</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <form method="post" action="#">
+            <div className="field half first">
+              <label htmlFor="name">Electricity</label>
+              <input type="text" name="name" id="datavillage-electricity" /> KWh
+            </div>
+          </form>
           {close}
         </article>
 
