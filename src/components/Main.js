@@ -66,7 +66,8 @@ class Main extends React.Component {
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Electricity</label>
-              <input type="text" name="name" id="datavillage-electricity" /> KWh
+              <span id="datavillage-electricity">dssdsddsdssd</span>
+              <input type="text" name="name" id="datavillage-electricitys" /> KWh
             </div>
           </form>
           {close}
