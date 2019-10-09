@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">How does it work?</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+           
           </span>
           <p>
               CarbonLab helps people calculate and improve their carbon footprint by getting insights from your data. We use private processing technology by <a href="https://www.datavillage.me">datavillage.me</a> to ensure only the insights are shared with us. 
@@ -63,13 +63,37 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">My Carbon footprint</h2>
+          <h3>Minimal additional information are required:</h3> 
           <form method="post" action="#">
             <div className="field half first">
-              <label htmlFor="name">Electricity</label>
-              <span id="datavillage-electricity">dssdsddsdssd</span>
-              <input type="text" name="name" id="datavillage-electricitys" /> KWh
+              <label htmlFor="name">Number of person(s) at home</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="3">Four</option>
+                <option value="3">More</option>
+              </select>
             </div>
+            <div className="field half">
+              <label htmlFor="email">Choose your vehicule (car)</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">Peugeot 308</option>
+                <option value="2">BMW X7</option>
+                <option value="3">Maserati</option>
+                <option value="3">Mercedes AMG</option>
+                <option value="3">Other</option>
+              </select>
+            </div>
+            <ul className="actions">
+              <li>
+                <input type="button" id="datavillageButton" value="Calculate with Datavillage" className="special" />
+              </li>
+            </ul>
           </form>
+          <span id="datavillageOutputs"></span>
           {close}
         </article>
 
