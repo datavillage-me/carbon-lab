@@ -72,7 +72,7 @@ class Main extends React.Component {
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
-                <option value="3">Four</option>
+                <option value="3" selected>Four</option>
                 <option value="3">More</option>
               </select>
             </div>
@@ -81,7 +81,7 @@ class Main extends React.Component {
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose...</option>
                 <option value="1">Peugeot 308</option>
-                <option value="2">BMW X7</option>
+                <option value="2" selected>BMW X7</option>
                 <option value="3">Maserati</option>
                 <option value="3">Mercedes AMG</option>
                 <option value="3">Other</option>
@@ -93,7 +93,43 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <span id="datavillageOutputs"></span>
+          <h3>Evolution of your carbon footprint</h3>
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">September</th>
+                  <th scope="col">October</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Electricity</th>
+                  <td>914 KWh - 200 kg/CO2</td>
+                  <td><span id="datavillageOutputs-electricity"></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Natural gaz</th>
+                  <td>800 KWh - 100 kg/CO2</td>
+                  <td><span id="datavillageOutputs-gaz"></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Car</th>
+                  <td>2600 Km - 260 kg/CO2</td>
+                  <td><span id="datavillageOutputs-car"></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Train</th>
+                  <td>500 Km - 20 kg/CO2</td>
+                  <td><span id="datavillageOutputs-train"></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Total</th>
+                  <td><b>580 kg/CO2</b></td>
+                  <td><span id="datavillageOutputs-total"></span></td>
+                </tr>
+              </tbody>
+            </table>
           {close}
         </article>
 
