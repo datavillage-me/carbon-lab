@@ -80,8 +80,8 @@ class Main extends React.Component {
               <label htmlFor="email">Choose your vehicule (car)</label>
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose...</option>
-                <option value="1">Peugeot 308</option>
-                <option value="2" selected>BMW X7</option>
+                <option value="1" selected>Peugeot 308</option>
+                <option value="2">BMW X7</option>
                 <option value="3">Maserati</option>
                 <option value="3">Mercedes AMG</option>
                 <option value="3">Other</option>
@@ -93,7 +93,6 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <h3>Evolution of your carbon footprint</h3>
           <table class="table">
               <thead>
                 <tr>
@@ -104,28 +103,33 @@ class Main extends React.Component {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Electricity</th>
-                  <td>914 KWh - 200 kg/CO2</td>
+                  <th scope="row">Geospatial Twin</th>
+                  <td>573kg CO2</td>
                   <td><span id="datavillageOutputs-electricity"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Natural gaz</th>
-                  <td>800 KWh - 100 kg/CO2</td>
+                  <th scope="row">Consumtion Twin</th>
+                  <td>742kg CO2</td>
                   <td><span id="datavillageOutputs-gaz"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Car</th>
-                  <td>2600 Km - 260 kg/CO2</td>
+                  <th scope="row">Social Twin</th>
+                  <td>Not yet available</td>
                   <td><span id="datavillageOutputs-car"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Train</th>
-                  <td>500 Km - 20 kg/CO2</td>
+                  <th scope="row">Health Twin</th>
+                  <td>Not yet available</td>
+                  <td><span id="datavillageOutputs-train"></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Knowledge Twin</th>
+                  <td>Not yet available</td>
                   <td><span id="datavillageOutputs-train"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Total</th>
-                  <td><b>580 kg/CO2</b></td>
+                  <td><b>1315 kg CO2</b></td>
                   <td><span id="datavillageOutputs-total"></span></td>
                 </tr>
               </tbody>
