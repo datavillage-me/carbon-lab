@@ -104,28 +104,28 @@ class Main extends React.Component {
               <tbody>
                 <tr>
                   <th scope="row">Geospatial Twin</th>
-                  <td>573kg CO2</td>
-                  <td><span id="datavillageOutputs-electricity"></span></td>
+                  <td>573 kg CO2</td>
+                  <td><span id="datavillageOutputs-geospatial"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Consumtion Twin</th>
-                  <td>742kg CO2</td>
-                  <td><span id="datavillageOutputs-gaz"></span></td>
+                  <td>742 kg CO2</td>
+                  <td><span id="datavillageOutputs-consumption"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Social Twin</th>
                   <td>Not yet available</td>
-                  <td><span id="datavillageOutputs-car"></span></td>
+                  <td><span id="datavillageOutputs-social"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Health Twin</th>
                   <td>Not yet available</td>
-                  <td><span id="datavillageOutputs-train"></span></td>
+                  <td><span id="datavillageOutputs-health"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Knowledge Twin</th>
                   <td>Not yet available</td>
-                  <td><span id="datavillageOutputs-train"></span></td>
+                  <td><span id="datavillageOutputs-knowledge"></span></td>
                 </tr>
                 <tr>
                   <th scope="row">Total</th>
