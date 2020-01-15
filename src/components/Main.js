@@ -77,9 +77,9 @@ class Main extends React.Component {
               </select>
             </div>
             <div className="field half">
-              <label htmlFor="email">Choose your vehicule (car)</label>
+              <label htmlFor="email">Confirm your company car</label>
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option selected>Choose...</option>
+                <option selected>BWM Serie 1</option>
                 <option value="1" selected>Peugeot 308</option>
                 <option value="2">BMW X7</option>
                 <option value="3">Maserati</option>
@@ -103,27 +103,27 @@ class Main extends React.Component {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Geospatial Twin</th>
+                  <th scope="row">Geospatial Profile</th>
                   <td>573 kg CO2</td>
                   <td><span id="datavillageOutputs-geospatial"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Consumtion Twin</th>
+                  <th scope="row">Consumtion Profile</th>
                   <td>742 kg CO2</td>
                   <td><span id="datavillageOutputs-consumption"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Social Twin</th>
+                  <th scope="row">Social Profile</th>
                   <td>Not yet available</td>
                   <td><span id="datavillageOutputs-social"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Health Twin</th>
+                  <th scope="row">Health Profile</th>
                   <td>Not yet available</td>
                   <td><span id="datavillageOutputs-health"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Knowledge Twin</th>
+                  <th scope="row">Knowledge Profile</th>
                   <td>Not yet available</td>
                   <td><span id="datavillageOutputs-knowledge"></span></td>
                 </tr>

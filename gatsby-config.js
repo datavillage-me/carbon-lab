@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Carbonlab - Automatically calculate your true carbon footprint",
+    title: "Accenture - Employee CarbonLab - Automatically calculate your carbon footprint and act accordingly!",
     author: "carbonlab.me",
-    description: "Automatically calculate your true carbon footprint!"
+    description: "Automatically calculate your carbon footprint and act accordingly!"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
